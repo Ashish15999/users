@@ -1,0 +1,107 @@
+.navbar{
+    background-color: red;
+    width: auto;
+    height:3rem;
+    margin: 0;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto 
+}
+
+li{
+    list-style: none;
+}
+
+.welcome{
+    margin-top: 0;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+button{
+    margin: 0.5rem 2rem auto 3rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border-style: none;
+}
+
+button:hover {
+    background: rgb(253, 155, 155);
+}
+
+
+.body{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto ; 
+}
+
+.blank1{
+   background-color: white;
+   margin: 3rem;
+    height: 35rem ;
+    width: 35rem;
+   
+}
+
+#notes{
+    display: block;
+    font-size: 1.5rem;
+    margin: 3rem auto 2rem 3rem;
+
+}
+
+form h1 {
+    margin-left: 3rem;
+}
+
+
+form button{
+    margin-left: 3rem;
+}
+
+
+.right {
+    background-color: white;
+    margin: 3rem;
+    height: auto;
+    width: 35rem;
+}
+
+.right li{
+    list-style: none;
+    background-color: rgb(232, 232, 142);
+    margin: 2rem auto 2rem -2.0rem;
+    padding: 0.5rem;
+    height: auto;
+    width: auto;
+
+}
+
+@media (max-width:50rem) {
+    .body{
+        display: block; 
+    }
+    .right{
+        margin: 0;
+    }
+
+    .blank1{
+        background-color: white;
+        margin: 3rem;
+         height: 15rem ;
+         width: 35rem;
+        
+     }
+    
+
+}
+
+
+
+
+
+
+
+
+
